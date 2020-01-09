@@ -1,5 +1,5 @@
 {
-  "name": "mock-middleware",
+  "name": "express-request-mock",
   "version": "1.0.0",
   "description": "Express middleware to mock requests with js and json files",
   "author": "Jeppe Hasseriis",
@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cenobitedk/mock-middleware.git"
+    "url": "git+https://github.com/cenobitedk/express-request-mock.git"
   },
   "bugs": {
-    "url": "https://github.com/cenobitedk/mock-middleware/issues"
+    "url": "https://github.com/cenobitedk/express-request-mock/issues"
   },
-  "homepage": "https://github.com/cenobitedk/mock-middleware#readme",
+  "homepage": "https://github.com/cenobitedk/express-request-mock#readme",
   "keywords": [
     "express",
     "middleware",
