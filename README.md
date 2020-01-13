@@ -1,4 +1,4 @@
-# express-reqest-mock
+# express-request-mock
 
 Express middleware to mock requests with JSON and JS files.
 
@@ -19,12 +19,12 @@ npm i express-request-mock
 
 ```
 const express = require("express");
-const mocker = require("express-request-mock");
+const ermock = require("express-request-mock");
 
 const app = express();
 
 // Add middleware as early as possible.
-app.use(mocker());
+app.use(ermock());
 
 // Setup routes etc.
 ```
