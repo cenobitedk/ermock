@@ -1,5 +1,5 @@
 {
-  "name": "express-request-mock",
+  "name": "ermock",
   "version": "1.0.0",
   "description": "Express middleware to mock requests with js and json files",
   "author": "Jeppe Hasseriis",
@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cenobitedk/express-request-mock.git"
+    "url": "git+https://github.com/cenobitedk/ermock.git"
   },
   "bugs": {
-    "url": "https://github.com/cenobitedk/express-request-mock/issues"
+    "url": "https://github.com/cenobitedk/ermock/issues"
   },
-  "homepage": "https://github.com/cenobitedk/express-request-mock#readme",
+  "homepage": "https://github.com/cenobitedk/ermock#readme",
   "keywords": [
     "express",
     "middleware",
