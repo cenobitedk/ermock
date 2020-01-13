@@ -43,14 +43,14 @@ Furthemore it also accepts a configuration object when setting up in express, eg
 
 ```
 app.use(mocker({
-    root: "/api/",
+    root: "/api",
     dir: "my-mock-reposnses",
     delay: 500,
     table: { ... }
 }));
 ```
 
-the complete configuration will consist of default values, file based configuration (cosmiconfig) and object based configuration merged in the mentioned order.  
+The complete configuration will consist of default values, file based configuration (cosmiconfig) and object based configuration merged in the mentioned order.  
 This makes it possible to dynamically overwrite properties, e.g. the `root` prefix upon application load.
 
 ## Configuration
