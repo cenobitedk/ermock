@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "cosmiconfig": "^6.0.0",
     "debug": "^4.1.1",
     "is-what": "^3.5.0",
-    "path-to-regexp": "^6.1.0"
+    "path-to-regexp": "^6.1.0",
+    "rcload": "^1.0.0"
+  },
+  "directories": {
+    "lib": "lib"
   },
   "files": [
     "lib"
@@ -34,6 +37,7 @@
     "middleware",
     "mock",
     "json",
+    "node",
     "nodejs"
   ]
 }
