@@ -5,7 +5,7 @@ Express middleware to mock requests with JSON and JS files.
 ## Features
 
 - File based mocks using JSON and JS files.
-- Flexible configuration with [cosmiconfig](https://www.npmjs.com/package/cosmiconfig).
+- Flexible configuration with [rcload](https://www.npmjs.com/package/rcload).
 - Supports preflight requests using [cors](https://www.npmjs.com/package/cors).
 - Uses express style path matching with [path-to-regexp](https://www.npmjs.com/package/path-to-regexp).
 
@@ -31,12 +31,11 @@ app.use(ermock());
 
 ## Setup
 
-It uses [cosmiconfig](https://www.npmjs.com/package/cosmiconfig) and thus supports any of the following:
+It uses [rcload](https://www.npmjs.com/package/rcload) and thus supports the following:
 
 - `ermock` property in `package.json`
-- `.ermockrc` file in JSON or YAML format
-- `.ermockrc.json` file
-- `.ermockrc.yaml`, `.ermockrc.yml`, or `.ermockrc.js` file
+- `.ermockrc` file in JSON format
+- `.ermockrc.json` or `.ermockrc.js` file
 - `ermock.config.js` file exporting a JS object
 
 Furthemore it also accepts a configuration object when setting up in express, eg.:
