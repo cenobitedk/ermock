@@ -1,6 +1,6 @@
 {
   "name": "ermock",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Express middleware to mock requests with js and json files",
   "author": "Jeppe Hasseriis",
   "license": "MIT",
